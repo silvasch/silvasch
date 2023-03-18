@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/victormono@latest/dist/index.min.css">
+        <link rel="stylesheet" href="style.css"> 
+        <script src="index.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h1 id="title" class="slide-in-top">Silvan Schmidt</h1>
+        <p id="subtitle" class="slide-in-right">Welcome to my personal website!</p>
+
+        <div class="side-nav" id="side-nav">
+            <div class="center-sidenav">
+                <a href="#title" onclick="toggleNav()">Top</a>
+                <a href="#about" onclick="toggleNav()">About</a>
+                <a href="#interests" onclick="toggleNav()">Interests</a>
+                <a href="#projects" onclick="toggleNav()">Projects</a>
+                <a href="#contact-heading" onclick="toggleNav()">Socials and Contact</a>
+            </div>
+        </div>
+        <a id="toggle-nav" class="fa fa-bars" onclick="toggleNav()"></a>
+
+        <div class="portrait">
+            <img src="assets/portrait.jpg" id="portrait" class="slide-in-left"></img>
+            <p class="img-desc slide-in-right">Me, 2021</p>
+        </div>
+
+        <div class="sections-container">
+            <div class="section section-paragraph slide-in-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+            <div id="about" class="section section-title animate-opacity"><h2>About</h2></div>
+
+            <div class="section section-paragraph slide-in-right">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+            <div id="interests" class="section section-title animate-opacity"><h2>Interests</h2></div>
+
+            <div class="section section-paragraph slide-in-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+            <div id="projects" class="section section-title animate-opacity"><h2>Projects</h2></div>
+        </div>
+
+        <div class="contact">
+            <h3 id="contact-heading" class="animate-opacity">Socials & Contact</h3>
+            <p class="slide-in-right">EMail: <a href="mailto:sil.schmidt@proton.me">sil.schmidt@proton.me</a></p>
+            <p class="slide-in-left">GitHub: <a href="https://github.com/silvasch">@silvasch</a></p>
+            <p class="slide-in-right">Mastodon: <a href="https://mastodon.social/@silvasch">@silvasch</p>
+        </div>
+    </body>
+</html>
