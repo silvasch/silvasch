@@ -15,4 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=silvasch&hide=contribs,prs&show_icons=true&theme=tokyonight)
+I'm Silvan, a student from Switzerland interested in Rust, Linux and graphics rendering.
+
+![Silvan's GitHub stats](https://github-readme-stats.vercel.app/api?username=silvasch&hide=contribs,prs&show_icons=true&theme=tokyonight)
